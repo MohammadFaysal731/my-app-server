@@ -42,6 +42,10 @@ app.get('/', (req, res) => {
     res.send('Hello my server')
 })
 
+app.get('/hero', (req, res) => {
+    res.send('Hero meets hero ku')
+})
+
 app.listen(port, () => {
     console.log('My server is ready', port)
 })
