@@ -24,5 +24,7 @@
  * ---------------------------
  * Connect sever with client
  * ---------------------------
- * 
+ * 1.replace localhost by heroku link
+ * 2.npm run build
+ * 3.firebase deploy
  * */ 
